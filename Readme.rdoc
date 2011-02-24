@@ -1,7 +1,20 @@
 = Ruby WPA
 
-Some WPA detection with Ruby.
+Some WPA password detection with Ruby.
 
 == Installation
 
   gem install rubywpa
+
+== Disclaimer
+
+  Test if your own WiFi network is subsceptible to standard WPA passwords.
+  I decline any responsibility for any other use.
+
+== Why?
+
+  Because ISPs started shipping WiFi-enabled modem/routes to their customers with standard passwords.
+  Those passwords in some cases are directly linked to the broadcasting SSID, allowing for an attacked to use
+  your network without authorization.
+  This tool helps you find out if you are currently vulnerable or not. If the password match, please do
+  what's in your power to change your WiFi password, either asking your ISP or do it by yourself.

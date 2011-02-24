@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
   s.name        = "rubywpa"
   s.version     = Rubywpa::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
+  s.authors     = ["Claudio Poli"]
+  s.email       = ["masterkain@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Find out if your WiFi is subsceptible to standard passwords}
+  s.description = %q{SSID-to-WPA verifier for supported networks}
 
   s.rubyforge_project = "rubywpa"
 
