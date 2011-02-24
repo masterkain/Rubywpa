@@ -18,3 +18,15 @@ Some WPA password detection with Ruby.
   your network without authorization.
   This tool helps you find out if you are currently vulnerable or not. If the password match, please do
   what's in your power to change your WiFi password, either asking your ISP or do it by yourself.
+
+== Why Ruby?
+
+  Because it's my favourite language and it's fun.
+  I agree that a C library would be more portable, but it is easy enough to do it by yourself if you need to.
+
+== TODO
+
+  - more supported ISPs
+  - better detection through regex
+  - proper code structure
+  - proper error raising/handling
