@@ -14,22 +14,22 @@ class Fastweb
       # HEX
       hex_5 = []
       i = 0
-      while i < 25 do
-          n = str_long[i, 5].to_i(2)
-          if n > 0x0a
-            hex_5 << (n + 0x57)
-          else
-            hex_5 << n
-          end
-          i += 5;
+      while i < 25
+        n = str_long[i, 5].to_i(2)
+        if n > 0x0a
+          hex_5 << (n + 0x57)
+        else
+          hex_5 << n
         end
-
-        # WPA
-        wpa = ''
-        hex_5.each{ |hex| wpa << sprintf("%02x", hex) }
-        wpa
-      rescue Exception => e
-        "Fastweb parser raised: SSID not supported yet"
+        i += 5
       end
+
+      # WPA
+      wpa = ''
+      hex_5.each{ |hex| wpa << sprintf("%02x", hex) }
+      wpa
+    rescue Exception => e
+      "Fastweb parser raised: SSID not supported yet"
     end
   end
+end
