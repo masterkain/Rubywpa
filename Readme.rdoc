@@ -1,0 +1,7 @@
+= Ruby WPA
+
+Some WPA detection with Ruby.
+
+== Installation
+
+  gem install rubywpa
