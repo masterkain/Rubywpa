@@ -1,7 +1,6 @@
 require 'digest/md5'
-#require 'lib/rubywpa/version'
-require 'lib/rubywpa/networks/alice'
-require 'lib/rubywpa/networks/fastweb'
+require 'rubywpa/networks/alice'
+require 'rubywpa/networks/fastweb'
 
 module Rubywpa
   class WiFi
@@ -9,7 +8,7 @@ module Rubywpa
 
     # Create a new rubywpa instance and set the SSID.
     #
-    #   wifi = RubyWPA.new({
+    #   wifi = Rubywpa::WiFi.new({
     #     :ssid => "MY_SSID",
     #     :mac  => "My_mac_address" # required for some networks
     #   })
