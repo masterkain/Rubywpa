@@ -6,6 +6,13 @@ Some WPA password detection with Ruby.
 
   gem install rubywpa
 
+== Usage
+
+  require 'rubywpa'
+  
+  wifi = Rubywpa::WiFi.new({:ssid => 'My_SSID'})
+  wifi.password
+
 == Disclaimer
 
 Test if your own WiFi network is subsceptible to standard WPA passwords.
