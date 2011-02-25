@@ -8,21 +8,26 @@ Some WPA password detection with Ruby.
 
 == Disclaimer
 
-  Test if your own WiFi network is subsceptible to standard WPA passwords.
-  I decline any responsibility for any other use.
+Test if your own WiFi network is subsceptible to standard WPA passwords.
+I decline any responsibility for any other use.
 
 == Why?
 
-  Because ISPs started shipping WiFi-enabled modem/routes to their customers with standard passwords.
-  Those passwords in some cases are directly linked to the broadcasting SSID, allowing for an attacked to use
-  your network without authorization.
-  This tool helps you find out if you are currently vulnerable or not. If the password match, please do
-  what's in your power to change your WiFi password, either asking your ISP or do it by yourself.
+Because ISPs started shipping WiFi-enabled modem/routes to their customers with standard passwords.
+Those passwords in some cases are directly linked to the broadcasting SSID, allowing for an attacked to use
+your network without authorization.
+This tool helps you find out if you are currently vulnerable or not. If the password match, please do
+what's in your power to change your WiFi password, either asking your ISP or do it by yourself.
 
 == Why Ruby?
 
-  Because it's my favourite language and it's fun.
-  I agree that a C library would be more portable, but it is easy enough to do it by yourself if you need to.
+Because it's my favourite language and it's fun.
+I agree that a C library would be more portable, but it is easy enough to do it by yourself if you need to.
+
+== How to contribute?
+
+Mainly I'd like having as many algorithms as possible, so if you know one or have discovered one, please fork the project and add your class in network. Be sure to also write some tests.
+Next I'd like some help to make this a proper library, currently it's only a hack, so it needs more polish.
 
 == TODO
 
